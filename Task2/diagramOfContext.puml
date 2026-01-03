@@ -5,6 +5,7 @@ Person(user, "Administrator", "Сотрудник ресепшена")
 Person(user1, "Patient", "Пациент")
 Person(user2, "Doctor", "Специалист-медик")
 Person(user3, "Analyst", "Аналитик")
+
 System(clientSystem, "Система записи на прием", "Позволяет записываться пользователю")
 System(сliDashBoardSystem, "Система построение отчетов")
 System(crmSystem, "CRM-cистема учета данных пользователей и заявок на запись", "Хранит данные о пользователе","TAG:ENCRYPT_AT_REST")
@@ -14,8 +15,11 @@ Rel(crmSystem,crmSystemS3,"Сбор/Получение/Отправка данн
 Rel(user,crmSystem, "Просмотре записей на прием и уведомление ","UI/REST API:JSON Format","TAG:PII,RESTRICTED_ACCESS,MASK_ON_VIEW,ENCRYPT_IN_TRANSIT","RBAC:Administration")
 Rel(user1,clientSystem, "Просмотр доступных слотов и своих данных","UI","TAG:PII,RESTRICTED_ACCESS", "ABAC:OnlySelfData")
 Rel(user3,сliDashBoardSystem, "Построение отчетов","UI","TAG:RESTRICTED_ACCESS,ANONYMIZE_FOR_ANALYTICS,ENCRYPT_IN_TRANSIT" )
-Rel(crmSystem,сliDashBoardSystem, " Поставка аннонимизированных данных через DAG-пайплайн","AIRFLOW+ClickHouseDB","TAG:PII,RESTRICTED_ACCESS","RBAC:TECH")
 Rel(crmSystem,user2, "Уведомление о приеме","Notification")
 Rel(crmSystem,user1, "Уведомление о приеме","Notification")
+
+System(privacyLayer, "Privacy-preserving Analytics Layer","Обеспечивает классификацию, анонимизацию и агрегацию данных для аналитики","TAG:PRIVACY_BY_DESIGN")
+Rel(crmSystem, privacyLayer,"Поставка данных по privacy-политикам","Secure ETL / Events","TAG:PII,ENCRYPT_IN_TRANSIT,DATA_MINIMIZATION")
+Rel(privacyLayer, сliDashBoardSystem,"Поставка агрегированных анонимизированных данных","ClickHouse / SQL / API","TAG:ANONYMIZED,AGGREGATED,NO_PII")
  @enduml
 

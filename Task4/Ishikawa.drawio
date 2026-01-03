@@ -52,10 +52,20 @@
             <mxPoint x="620" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="D-dScZom5DFzW-bV-uWj-2" connectable="0" parent="5d3jtj-_5czroDV6dNyy-14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Резкий скачок набора сотрудников" vertex="1">
+          <mxGeometry relative="1" x="-0.4642" y="3" as="geometry">
+            <mxPoint x="-134" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="5d3jtj-_5czroDV6dNyy-15" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="410" y="300" as="sourcePoint" />
             <mxPoint x="540" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D-dScZom5DFzW-bV-uWj-1" connectable="0" parent="5d3jtj-_5czroDV6dNyy-15" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Отсутствие hr-департамент" vertex="1">
+          <mxGeometry relative="1" x="-0.9098" y="2" as="geometry">
+            <mxPoint x="-86" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="5d3jtj-_5czroDV6dNyy-16" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
@@ -64,10 +74,20 @@
             <mxPoint x="620" y="610" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="D-dScZom5DFzW-bV-uWj-6" connectable="0" parent="5d3jtj-_5czroDV6dNyy-16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" value="Отсутствие навыков работы с &lt;br&gt;развертыванием нескольких нод" vertex="1">
+          <mxGeometry relative="1" x="-0.6764" y="3" as="geometry">
+            <mxPoint x="-111" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="5d3jtj-_5czroDV6dNyy-17" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="425" y="670" as="sourcePoint" />
             <mxPoint x="555" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D-dScZom5DFzW-bV-uWj-5" connectable="0" parent="5d3jtj-_5czroDV6dNyy-17" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Отсутствие СI/CD" vertex="1">
+          <mxGeometry relative="1" x="-0.8541" y="1" as="geometry">
+            <mxPoint x="-55" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="5d3jtj-_5czroDV6dNyy-18" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
@@ -76,22 +96,64 @@
             <mxPoint x="260" y="610" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="D-dScZom5DFzW-bV-uWj-10" connectable="0" parent="5d3jtj-_5czroDV6dNyy-18" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Опыт работы с CRM" vertex="1">
+          <mxGeometry relative="1" x="-0.5623" y="-2" as="geometry">
+            <mxPoint x="-88" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="5d3jtj-_5czroDV6dNyy-19" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="70" y="670" as="sourcePoint" />
             <mxPoint x="200" y="670" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5d3jtj-_5czroDV6dNyy-22" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="60" y="310" as="sourcePoint" />
-            <mxPoint x="190" y="310" as="targetPoint" />
+        <mxCell id="D-dScZom5DFzW-bV-uWj-9" connectable="0" parent="5d3jtj-_5czroDV6dNyy-19" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" value="Новый продукт в виде порталов&lt;br&gt;&amp;nbsp;для администратов &lt;br&gt;и клиентов" vertex="1">
+          <mxGeometry relative="1" x="-0.8462" y="1" as="geometry">
+            <mxPoint x="-100" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="5d3jtj-_5czroDV6dNyy-23" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="130" y="380" as="sourcePoint" />
             <mxPoint x="260" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D-dScZom5DFzW-bV-uWj-13" connectable="0" parent="5d3jtj-_5czroDV6dNyy-23" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Долгая миграция" vertex="1">
+          <mxGeometry relative="1" x="-0.6472" y="2" as="geometry">
+            <mxPoint x="-73" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D-dScZom5DFzW-bV-uWj-3" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="560" y="440" as="sourcePoint" />
+            <mxPoint x="690" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D-dScZom5DFzW-bV-uWj-4" connectable="0" parent="D-dScZom5DFzW-bV-uWj-3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" value="Отстуствие процесса разработки&lt;br&gt;&amp;nbsp;и внедрения ПО" vertex="1">
+          <mxGeometry relative="1" x="-0.4642" y="3" as="geometry">
+            <mxPoint x="-134" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D-dScZom5DFzW-bV-uWj-7" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="540" y="560" as="sourcePoint" />
+            <mxPoint x="670" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D-dScZom5DFzW-bV-uWj-8" connectable="0" parent="D-dScZom5DFzW-bV-uWj-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="On-promise" vertex="1">
+          <mxGeometry relative="1" x="-0.6764" y="3" as="geometry">
+            <mxPoint x="-61" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D-dScZom5DFzW-bV-uWj-11" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="180" y="560" as="sourcePoint" />
+            <mxPoint x="310" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D-dScZom5DFzW-bV-uWj-12" connectable="0" parent="D-dScZom5DFzW-bV-uWj-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Долгий выпуск первого релиза" vertex="1">
+          <mxGeometry relative="1" x="-0.5623" y="-2" as="geometry">
+            <mxPoint x="-88" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
